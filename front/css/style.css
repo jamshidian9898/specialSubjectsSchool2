@@ -67,10 +67,18 @@ ul {
     text-align: end;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
 }
 
 .nav {
     display: flex;
+    justify-content: center;
 }
 
 .nav a {
@@ -95,8 +103,39 @@ ul {
 .logo{
     justify-content: end;
 }
+
 .logo-img {
     width: 150px;
     height: 150px;
     justify-content: space-between;
 }
+
+.body{
+    display: flex;
+    align-items: stretch;
+    flex: 0 0 100%
+}
+
+.left-section{
+    width: 20%;
+}
+.right-section{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+}
+
+.content{
+    width: 60%;
+}
+.sidebar{
+    width: 40%;
+}
+
+.main-nav{
+    justify-content: end;
+    flex-direction: row-reverse;}
