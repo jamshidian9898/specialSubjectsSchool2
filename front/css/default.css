@@ -1,0 +1,373 @@
+/**
+ * Basic ready to use CSS Style
+ */
+
+html {
+    height: 100%;
+}
+
+*,
+::after,
+::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.light-rounded {
+    border-radius: 3px;
+}
+
+.heavy-rounded {
+    border-radius: 8px;
+}
+
+.full-rounded {
+    border-radius: 50%;
+}
+
+.barrel-rounded {
+    border-radius: 20px/60px;
+}
+
+input[type=text] {
+    font-size: 20px
+}
+
+.form-input {
+    display: block;
+    padding: 5px;
+    border: 1px solid #afafaf;
+    border-radius: 5px;
+    color: #333;
+    transition: all 0.3s ease-out;
+}
+
+.form-input:hover {
+    border-radius: 8px
+}
+
+.form-input:focus {
+    outline: none;
+    border-radius: 8px;
+    border-color: #555;
+}
+
+.p0 {
+    padding: 0 !important;
+}
+
+.p1 {
+    padding: 5px;
+}
+
+.p2 {
+    padding: 10px;
+}
+
+.p3 {
+    padding: 15px;
+}
+
+.p4 {
+    padding: 20px;
+}
+
+.pt0 {
+    padding-top: 0;
+}
+
+.pt1 {
+    padding-top: 5px;
+}
+
+.pt2 {
+    padding-top: 10px;
+}
+
+.pt3 {
+    padding-top: 15px;
+}
+
+.pt4 {
+    padding-top: 20px;
+}
+
+.pb0 {
+    padding-bottom: 0;
+}
+
+.pb1 {
+    padding-bottom: 5px;
+}
+
+.pb2 {
+    padding-bottom: 10px;
+}
+
+.pb3 {
+    padding-bottom: 15px;
+}
+
+.pb4 {
+    padding-bottom: 20px;
+}
+
+.pr0 {
+    padding-right: 0;
+}
+
+.pr1 {
+    padding-right: 5px;
+}
+
+.pr2 {
+    padding-right: 10px;
+}
+
+.pr3 {
+    padding-right: 15px;
+}
+
+.pr4 {
+    padding-right: 20px;
+}
+
+.pl0 {
+    padding-left: 0;
+}
+
+.pl1 {
+    padding-left: 5px;
+}
+
+.pl2 {
+    padding-left: 10px;
+}
+
+.pl3 {
+    padding-left: 15px;
+}
+
+.pl4 {
+    padding-left: 20px;
+}
+
+
+.m0 {
+    margin: 0;
+}
+
+.m1 {
+    margin: 5px;
+}
+
+.m2 {
+    margin: 10px;
+}
+
+.m3 {
+    margin: 15px;
+}
+
+.m4 {
+    margin: 20px;
+}
+
+
+.mt0 {
+    margin-top: 0;
+}
+
+.mt1 {
+    margin-top: 5px;
+}
+
+.mt2 {
+    margin-top: 10px;
+}
+
+.mt3 {
+    margin-top: 15px;
+}
+
+.mt4 {
+    margin-top: 20px;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.mb1 {
+    margin-bottom: 5px;
+}
+
+.mb2 {
+    margin-bottom: 10px;
+}
+
+.mb3 {
+    margin-bottom: 15px;
+}
+
+.mb4 {
+    margin-bottom: 20px;
+}
+
+.mr0 {
+    margin-right: 0;
+}
+
+.mr1 {
+    margin-right: 5px;
+}
+
+.mr2 {
+    margin-right: 10px;
+}
+
+.mr3 {
+    margin-right: 15px;
+}
+
+.mr4 {
+    margin-right: 20px;
+}
+
+.ml0 {
+    margin-left: 0;
+}
+
+.ml1 {
+    margin-left: 5px;
+}
+
+.ml2 {
+    margin-left: 10px;
+}
+
+.ml3 {
+    margin-left: 15px;
+}
+
+.ml4 {
+    margin-left: 20px;
+}
+
+.btn {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-green {
+    background-color: #14A44D;
+}
+
+.btn-blue {
+    background-color: #3B71CA;
+}
+
+.btn-red {
+    background-color: #DC4C64;
+}
+
+.btn-secondary {
+    background-color: #9FA6B2;
+    color: black;
+}
+
+.btn-dark {
+    background-color: #332D2D;
+}
+
+.btn-yellow {
+    background-color: #E4A11B;
+}
+
+.btn-light {
+    background-color: #FBFBFB;
+}
+
+.bg-green {
+    background-color: #14A44D;
+}
+
+.bg-blue {
+    background-color: #3B71CA;
+}
+
+.bg-red {
+    background-color: #DC4C64;
+}
+
+.bg-secondary {
+    background-color: #9FA6B2;
+    color: black;
+}
+
+.bg-dark {
+    background-color: #332D2D;
+}
+
+.bg-yellow {
+    background-color: #E4A11B;
+}
+
+.bg-light {
+    background-color: #FBFBFB;
+}
+
+
+
+.text-green {
+    color: #04AA6D;
+}
+
+.text-blue {
+    color: #2196F3;
+}
+
+.text-yellow {
+    color: #ff9800;
+}
+
+.text-red {
+    color: #f44336;
+}
+
+.text-light {
+    color: #e7e7e7;
+}
+
+.text-dark {
+    color: black;
+}
+
+.bordered{
+    border: 1px solid #eee;
+}
+
+.b-t{
+    border-top: 1px solid #eee;
+}
+.b-b{
+    border-bottom: 1px solid #eee;
+}
+.b-l{
+    border-left: 1px solid #eee;
+}
+.b-r{
+    border-right: 1px solid #eee;
+}
