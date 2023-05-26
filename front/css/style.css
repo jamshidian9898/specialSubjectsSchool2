@@ -67,6 +67,7 @@ ul {
     flex-direction: column;
     justify-content: flex-end;
 }
+
 .mid-header {
     text-align: end;
     display: flex;
@@ -82,7 +83,7 @@ ul {
 
 .nav {
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 
 .nav a {
@@ -135,11 +136,26 @@ ul {
 }
 
 .content {
-    width: 60%;
+    width: 70%;
 }
 
 .sidebar {
-    width: 40%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border-left: 1px #999 solid;
+}
+
+.sidebar-links {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+}
+
+.sidebar-item {
+    padding: 10px;
+    margin: 10px;
 }
 
 .main-nav {
